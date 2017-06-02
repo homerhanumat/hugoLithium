@@ -1,0 +1,39 @@
+{{ partial "head" . }}
+
+
+<body>
+  
+  {{ partial "off-canvas" . }}
+  
+  <a class="menu-icon" title="Menu"><span class="lines"></span></a>
+  
+  {{ partial "header" . }}
+  
+  <div class="site-wrapper">
+  <main>
+    <div id="home">
+        <ul class="posts">
+        {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+        {{ range $paginator.Pages }}
+            <li itemscope itemtype="//schema.org/BlogPosting">
+                <a href="{{ .Permalink }}" itemprop="url">
+                    <div class="p-wrap">
+                        <time datetime="" itemprop="datePublished">
+                        <span class="baffle">{{ .Date.Format "02 Jan 2006" }}</span>
+                        </time>
+                        <p itemprop="name headline"><span class="baffle">{{ .Title }}</span></p>
+                    </div>
+                </a>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+</main>
+  
+  {{ partial "footer" . }}
+  </div>
+  
+  {{ partial "js" . }}
+  
+</body>
+</html>
