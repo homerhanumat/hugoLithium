@@ -18,7 +18,7 @@ theme = "sublime-hugo-theme"
 	copyright = ""
 	
 	# store off-canvas log image in static/img:
-	logo = "top-image.jpg"
+	logo = "offcanvas-shot.jpg"
 	
 	# enable MathJax on all pages by default?
 	math = false
@@ -36,11 +36,11 @@ theme = "sublime-hugo-theme"
 
 [params.offcanvas]
 	# Menu items
-	title = "Blogdown Sublime Hugo"
-	bio = "Georgetown College"
-	bio2 = "Georgetown, KY 40312"
+	title = "Hello, I'm Homer White"
+	bio = "I teach mathematics and computer science at a small liberal arts college in Kentucky,  In the summers I hack at garden hedges and front ends."
+	bio2 = ""
 	subscribe = "Subscribe"
-	followme = "Contact"
+	followme = "Contact/Follow"
 
 	# Enable Google search
 	search_enabled = true

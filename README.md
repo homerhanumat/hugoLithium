@@ -14,6 +14,7 @@ TODO:
 * Sharing icons
 * Option to show post summaries
 * Package as theme
+* Document
 * Off-canvas image styling
 
 Feedback is welcome:  just open an Issue.
