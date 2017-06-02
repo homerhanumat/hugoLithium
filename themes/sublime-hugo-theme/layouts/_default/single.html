@@ -7,7 +7,7 @@
     
     <div class="site-wrapper" id="full-wrapper">
         
-        <section class="single-wrap">
+        <section class="single-wrap sticky-footer-wrapper">
             <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
                 <div class="feat">
                     <h5 class="page-date">
@@ -69,10 +69,6 @@
             </article>
         </section>
         
-
-        {{ partial "footer" . }}
-    </div>
-
     <div class="next-prev-arrows">
         {{ if .NextInSection }}
             <a rel="next" href="{{ .NextInSection.Permalink }}" id="next">
@@ -85,6 +81,10 @@
             </a>
         {{ end }}
     </div>
+        {{ partial "footer" . }}
+    </div>
+
+
 
     {{ partial "js" . }}
     

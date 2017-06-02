@@ -9,7 +9,7 @@
   {{ partial "header" . }}
   
   <div class="site-wrapper">
-  <main>
+  <main class="sticky-footer-wrapper">
     <div id="home">
         <ul class="posts">
         {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
@@ -25,11 +25,11 @@
                 </a>
                 {{ if .Site.Params.showsummaries }}
                 {{ if .Params.summary }}
-                <p class="summary">
-                  {{ .Params.summary | markdownify }}</p>
+                <div class="summary">
+                  {{ .Params.summary | markdownify }}</div>
                 {{ else }} 
-                <p class="summary">
-                  {{ .Summary | markdownify }}</p>
+                <div class="summary">
+                  {{ .Summary | markdownify }}</div>
                 {{ end }}
                 {{ end }}
             </li>

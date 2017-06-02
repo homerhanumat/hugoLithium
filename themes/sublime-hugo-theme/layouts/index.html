@@ -6,8 +6,10 @@
 
       {{ partial "header" . }}
       <div class="site-wrapper">
-        {{ partial "post-list" . }}
-        {{ partial "pagination" . }} 
+        <div class="sticky-footer-wrapper">
+          {{ partial "post-list" . }}
+          {{ partial "pagination" . }}
+        </div>
         {{ partial "footer" . }}
       </div>
     

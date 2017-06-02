@@ -8,12 +8,11 @@ Features added so far:
 * "Aggregator" taxonomy (send selected posts to, e.g., R-bloggers)
 * Option for MathJax
 * Additional social media links
-* Shargin options for posts
+* Sharing option for posts
 * Option to show post summaries
 
 TODO:
 
-* Sticky footer
 * Package as theme
 * Document
 

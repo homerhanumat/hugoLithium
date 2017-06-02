@@ -14,11 +14,11 @@
                 </a>
                 {{ if .Site.Params.showsummaries }}
                 {{ if .Params.summary }}
-                <p class="summary">
-                  {{ .Params.summary | markdownify }}</p>
+                <div class="summary">
+                  {{ .Params.summary | markdownify }}</div>
                 {{ else }} 
-                <p class="summary">
-                  {{ .Summary | markdownify }}</p>
+                <div class="summary">
+                  {{ .Summary | markdownify }}</div>
                 {{ end }}
                 {{ end }}
             </li>
