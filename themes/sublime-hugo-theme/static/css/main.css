@@ -1007,8 +1007,8 @@ header {
 
 footer {
     width: 100%;
-    bottom: 0;
-    left: 0;
+    /*bottom: 0;
+    left: 0;*/
     text-align: center;
 }
 
@@ -1216,7 +1216,7 @@ footer small {
 }
 
 .single-wrap .share {
-    margin: 3.5em auto;
+    margin: 1em auto;
 }
 
 .single-wrap h1.page-title {

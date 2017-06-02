@@ -1,6 +1,6 @@
 <div class="off-canvas">
     <figure class="avatar">
-        <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Logo }}" title="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+        <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Logo }}" title="{{ with .Site.Params.name }}{{ . }}{{ end }}" style = "border-radius: {{ .Site.Params.logoborderradius }};">
     </figure>
     <div class="bio">
         {{ with .Site.Params.offcanvas.title }}
@@ -53,6 +53,10 @@
             
             {{ if .googleplus  }}
               <li><a class="email" href="https://plus.google.com/+{{ .googleplus }}"><i class="fa fa-google-plus" aria-hidden="true"></i> Google Plus</a></li>
+            {{ end }}
+            
+            {{ if .linkedin  }}
+              <li><a class="email" href="https://www.linkedin.com/in/{{ .linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
             {{ end }}
             
           {{ end }}

@@ -2,7 +2,6 @@
 
 
 <body>
-  
   {{ partial "off-canvas" . }}
   
   <a class="menu-icon" title="Menu"><span class="lines"></span></a>
@@ -24,16 +23,23 @@
                         <p itemprop="name headline"><span class="baffle">{{ .Title }}</span></p>
                     </div>
                 </a>
+                {{ if .Site.Params.showsummaries }}
+                {{ if .Params.summary }}
+                <p class="summary">
+                  {{ .Params.summary | markdownify }}</p>
+                {{ else }} 
+                <p class="summary">
+                  {{ .Summary | markdownify }}</p>
+                {{ end }}
+                {{ end }}
             </li>
         {{ end }}
         </ul>
     </div>
 </main>
-  
-  {{ partial "footer" . }}
-  </div>
+{{ partial "footer" . }}
+  </div>  <!-- end site-wrapper -->
   
   {{ partial "js" . }}
-  
 </body>
 </html>

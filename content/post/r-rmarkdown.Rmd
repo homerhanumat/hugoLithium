@@ -6,6 +6,8 @@ categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 aggregators:  ["r-bloggers"]
 math:  true
+description: "r markdown blogdown example"
+summary: "If you want *summaries* but don't like the default, then **put one here**!"
 ---
 
 ```{r setup, include=FALSE}

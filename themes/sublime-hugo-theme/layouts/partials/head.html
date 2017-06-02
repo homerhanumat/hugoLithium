@@ -10,7 +10,12 @@
     <meta http-equiv="content-language" content="{{ with .Site.LanguageCode }}{{ . }}{{ end }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+    {{ if .Params.description }}
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ end }}">
+    {{ else }}
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    {{ end }}
+    
     {{ .Hugo.Generator }}
 
     {{ "<!-- Stylesheets -->" | safeHTML }}

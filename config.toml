@@ -15,10 +15,13 @@ theme = "sublime-hugo-theme"
 [params]
 	name = "Homer White"
 	description = "Tweak of Sublime Hugo theme for blogdown"
-	copyright = ""
+	copyright = "License:  MIT"
+	sharing = true
+	showsummaries = true
 	
 	# store off-canvas log image in static/img:
 	logo = "offcanvas-shot.jpg"
+	logoborderradius = "10%"
 	
 	# enable MathJax on all pages by default?
 	math = false
@@ -37,7 +40,7 @@ theme = "sublime-hugo-theme"
 [params.offcanvas]
 	# Menu items
 	title = "Hello, I'm Homer White"
-	bio = "I teach mathematics and computer science at a small liberal arts college in Kentucky,  In the summers I hack at garden hedges and front ends."
+	bio = "I teach mathematics and computer science at a small liberal arts college in Kentucky.  In the summer I hack at garden hedges and front ends."
 	bio2 = ""
 	subscribe = "Subscribe"
 	followme = "Contact/Follow"
@@ -50,11 +53,11 @@ theme = "sublime-hugo-theme"
 		name = "Email"
 		url = "mailto:homerhanumat@gmail.com"
 		github = "homerhanumat"
-		# for facebook
-		facebook = "homer.white1"
-		twitter = "homerhanumat"
-		# for Google Plus, provide URL after the +:
-		googleplus = "HomerWhitehomerhanumat"
+		facebook = ""
+		twitter = ""
+		# for Google Plus, provide URL fragment after the +:
+		googleplus = ""
+		linkedin = ""
 		
 # Taxonomies.
 [taxonomies]

@@ -5,17 +5,17 @@ Blogdownify-ing the [**Sublime Hugo Theme**](https://github.com/dt801ts/sublime-
 Features added so far:
 
 * Tags and Categories
-* "Aggregator" taxonomy (to send selected posts to, e.g., R-bloggers)
+* "Aggregator" taxonomy (send selected posts to, e.g., R-bloggers)
 * Option for MathJax
-* Additonal social media links
+* Additional social media links
+* Shargin options for posts
+* Option to show post summaries
 
 TODO:
 
-* Sharing icons
-* Option to show post summaries
+* Sticky footer
 * Package as theme
 * Document
-* Off-canvas image styling
 
 Feedback is welcome:  just open an Issue.
 

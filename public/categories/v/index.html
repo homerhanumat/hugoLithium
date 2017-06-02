@@ -10,7 +10,10 @@
     <meta http-equiv="content-language" content="en-us" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Homer White">
+    
     <meta name="description" content="Tweak of Sublime Hugo theme for blogdown">
+    
+    
     <meta name="generator" content="Hugo 0.21" />
 
     <!-- Stylesheets -->
@@ -30,17 +33,16 @@
 
 
 <body>
-  
   <div class="off-canvas">
     <figure class="avatar">
-        <img src="/img/offcanvas-shot.jpg" title="Homer White">
+        <img src="/img/offcanvas-shot.jpg" title="Homer White" style = "border-radius: 10%;">
     </figure>
     <div class="bio">
         
         <h1>Hello, I&#39;m Homer White</h1>
         
         
-        <p>I teach mathematics and computer science at a small liberal arts college in Kentucky,  In the summers I hack at garden hedges and front ends.</p>
+        <p>I teach mathematics and computer science at a small liberal arts college in Kentucky.  In the summer I hack at garden hedges and front ends.</p>
         
         
     </div>
@@ -75,15 +77,11 @@
             
             
             
-              <li><a class="email" href="https://facebook.com/homer.white1"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
             
             
             
-              <li><a class="email" href="https://twitter.com/homerhanumat"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
             
             
-            
-              <li><a class="email" href="https://plus.google.com/+HomerWhitehomerhanumat"><i class="fa fa-google-plus" aria-hidden="true"></i> Google Plus</a></li>
             
             
           
@@ -126,6 +124,13 @@
                         <p itemprop="name headline"><span class="baffle">Go is for Lovers</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -137,6 +142,12 @@
                         <p itemprop="name headline"><span class="baffle">Henry</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Quite apart from the usual. ipsum dolor sit amet, hendrerit rutrum aliquam ullamcorper purus non sed. Vitae fames porttitor justo amet, eu neque donec enim vitae vitae vivamus, pede justo metus velit id diam. Scelerisque eget egestas adipiscing mollis in dictum, eu velit amet arcu nibh massa, fringilla ut nunc gravida maecenas phasellus, vulputate felis lacinia integer turpis aliquam. Ultricies eu amet magna, scelerisque ac nulla, auctor nullam vestibulum sapien rutrum pellentesque venenatis, vestibulum a.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -148,6 +159,17 @@
                         <p itemprop="name headline"><span class="baffle">Hugo is for Lovers</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to <a href="http://localhost:1313">http://localhost:1313</a>  Corresponding pseudo commands:</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -159,6 +181,13 @@
                         <p itemprop="name headline"><span class="baffle">Creating a New Theme</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -170,6 +199,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -181,6 +218,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -192,6 +237,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -203,6 +256,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -214,6 +275,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -225,6 +294,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -236,6 +313,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -247,6 +332,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -258,6 +351,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -269,6 +370,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -280,6 +389,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -291,6 +408,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -302,6 +427,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -313,6 +446,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -324,6 +465,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -335,6 +484,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -346,6 +503,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -357,6 +522,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -368,6 +541,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -379,6 +560,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -390,6 +579,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -401,6 +598,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -412,6 +617,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -423,6 +636,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -434,6 +655,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -445,6 +674,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -456,6 +693,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -467,6 +712,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -478,6 +731,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -489,6 +750,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -500,6 +769,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -511,6 +788,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -522,6 +807,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -533,6 +826,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -544,6 +845,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -555,6 +864,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -566,6 +883,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -577,6 +902,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -588,6 +921,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -599,6 +940,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -610,6 +959,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -621,6 +978,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -632,6 +997,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -643,6 +1016,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -654,6 +1035,14 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
             <li itemscope itemtype="//schema.org/BlogPosting">
@@ -665,16 +1054,25 @@
                         <p itemprop="name headline"><span class="baffle">Migrate from Jekyll</span></p>
                     </div>
                 </a>
+                
+                 
+                <p class="summary">
+                  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</p>
+                
+                
             </li>
         
         </ul>
     </div>
 </main>
-  
-  <footer>
+<footer>
+	
+	<small>License:  MIT</small>
 	
 </footer>
-  </div>
+  </div>  
   
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="/js/scrollreveal.min.js"></script>
@@ -689,6 +1087,5 @@
 <!-- Syntax highlighting -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-  
 </body>
 </html>

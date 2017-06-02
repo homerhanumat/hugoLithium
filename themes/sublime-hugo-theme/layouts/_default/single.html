@@ -53,10 +53,14 @@
 
   </div>
                 
-                
+              {{ partial "sharing" . }}  
+              
                 <div itemprop="articleBody">
                     {{ .Content }}                    
                 </div>
+                
+                 
+                
                 <div class="feat share">
                 </div>
                 
@@ -64,6 +68,7 @@
                 
             </article>
         </section>
+        
 
         {{ partial "footer" . }}
     </div>

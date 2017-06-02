@@ -6,6 +6,7 @@
     <description>Recent content in Aggregators on SublimeR Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>License:  MIT</copyright>
     
 	<atom:link href="/aggregators/index.xml" rel="self" type="application/rss+xml" />
     
