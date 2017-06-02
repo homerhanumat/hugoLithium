@@ -1,6 +1,6 @@
 # SublimeR-Hugo
 
-Blogdownify-ing the [**Sublime Hugo Theme](https://github.com/dt801ts/sublime-hugo-theme).
+Blogdownify-ing the [**Sublime Hugo Theme**](https://github.com/dt801ts/sublime-hugo-theme).
 
 Features added so far:
 
