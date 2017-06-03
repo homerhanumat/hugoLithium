@@ -1,6 +1,6 @@
-# SublimeR-Hugo
+# SublimeR-Hugo Demo site
 
-Blogdownify-ing the [**Sublime Hugo Theme**](https://github.com/dt801ts/sublime-hugo-theme).
+A demonstration of my modification of the [**Sublime Hugo Theme**](https://github.com/dt801ts/sublime-hugo-theme), for use with the [**blogdown**](https://github.com/rstudio/blogdown) package for R.
 
 Features added so far:
 
@@ -11,10 +11,13 @@ Features added so far:
 * Sharing option for posts
 * Option to show post summaries
 
-TODO:
+The theme itself is at:
 
-* Package as theme
-* Document
+>[https://github.com/homerhanumat/sublimer-hugo](https://github.com/homerhanumat/sublimer-hugo)
 
-Feedback is welcome:  just open an Issue.
+To use the theme with **blogdown**:
+
+```
+blogdown::new_site(theme = "homerhanumat/sublimer-hugo")
+```
 
