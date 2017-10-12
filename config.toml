@@ -13,7 +13,7 @@ title = "SublimeR Hugo"
 
 # Enable comments by entering your Disqus shortname
 # (Sign up at https://disqus.com/):
-# disqusShortname = ""
+# disqusShortname = "sublime-r-theme"
 
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = ""
@@ -64,7 +64,11 @@ theme = "sublime-hugo-theme"
 [params.offcanvas]
 	# Menu items
 	title = "Hello, I'm Homer White"
-	bio = "I teach mathematics and computer science at a small liberal arts college in Kentucky.  In the summer I hack at garden hedges and front ends."
+	bio = """\
+	      I teach mathematics and computer science at \
+	      a small liberal arts college in Kentucky.  \
+	      In the summer I hack at garden hedges and front ends.\
+	      """
 	# Another biographical paragraph, if you like:
 	bio2 = ""
 	subscribe = "Subscribe"

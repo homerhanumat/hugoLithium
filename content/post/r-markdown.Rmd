@@ -12,6 +12,7 @@ tags:
 - plot
 - regression
 aggregators: r-bloggers
+comments: true
 ---
 
 ```{r setup, include=FALSE}
