@@ -13,7 +13,7 @@ title = "SublimeR Hugo"
 
 # Enable comments by entering your Disqus shortname
 # (Sign up at https://disqus.com/):
-# disqusShortname = "sublime-r-theme"
+disqusShortname = "sublime-r-theme"
 
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = ""
