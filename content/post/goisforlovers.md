@@ -10,6 +10,7 @@ categories = [
 ]
 slug = "dfljasldjflmmmm"
 type = "post"
+comments = true
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
